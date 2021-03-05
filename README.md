@@ -1,3 +1,3 @@
 # algorithms-and-data-structures
 
-My implementations of popular algorithms using Java
+My implementations of well known algorithms using Java

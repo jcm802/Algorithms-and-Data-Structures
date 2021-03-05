@@ -141,7 +141,7 @@ public class Main {
 
         }
 
-        // === findNeighbours method with comments ===
+        // === findNeighbours method with print out of traversal ===
         // this finds whether there is an edge present in the matrix, DFS uses it
         public static ArrayList<Node> findNeighbours(int[][] adjMatrix, Node x){
             System.out.println("nodeIndex reset to -1");
@@ -178,7 +178,7 @@ public class Main {
             return neighbours;
         }
 
-        // ==== DFS iterative with comments of traversal ====
+        // ==== DFS iterative with print out of traversal ====
         public static void dfsIterative(int[][] adjMatrix, Node start){
             Stack<Node> stack = new Stack<>();
             LinkedList<Node> path = new LinkedList<>();
@@ -229,7 +229,7 @@ public class Main {
             System.out.println("Path = " + path);
         }
 
-        // ==== FindNeighbours No Comments ====
+        // ==== FindNeighbours - No print out of traversal ====
         public static ArrayList<Node> findNeighbours2(int[][] adjMatrix, Node x){
             int nodeIndex = -1;
             ArrayList<Node> neighbours = new ArrayList<>();
@@ -253,7 +253,7 @@ public class Main {
             return neighbours;
         }
 
-        // ==== DFS iterative No Comments ====
+        // ==== DFS iterative - no print out of traversal ====
         public static void dfsIterative2(int[][] adjMatrix, Node start){
             Stack<Node> stack = new Stack<>();
             stack.push(start);
@@ -302,7 +302,7 @@ public class Main {
             System.out.println("Path: " + path);
         }
 
-        // BFS iterative with comments of traversal
+        // BFS iterative with print out of traversal
         public static void bfsIterative(int[][] adjMatrix, Node start){
             Queue<Node> queue = new LinkedList<>();
             LinkedList<Node> path = new LinkedList<>();

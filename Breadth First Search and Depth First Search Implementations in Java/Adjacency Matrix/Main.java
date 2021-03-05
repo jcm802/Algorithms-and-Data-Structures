@@ -113,8 +113,8 @@ public class Main {
                 this.adjMatrix = new int[nodes][nodes];
             }
 
+            // For directed graph
             public void addEdge(int u, int v){
-                adjMatrix[u][v] = 1;
                 adjMatrix[u][v] = 1;
                 E++;
             }
